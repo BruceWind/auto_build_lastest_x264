@@ -13,7 +13,7 @@ TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
 确保每个路径都存在。
 
 
-2.开始run shell
+### 2.开始run shell
 ```
 sh build_android_arm.sh
 ```
