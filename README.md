@@ -4,18 +4,18 @@
 # 使用
 ###  1.修改参数
 修改 build_android_arm.sh文件中，如下代码:
-
-NDK=/home/wei/android-ndk-r10e
-PLATFORM=$NDK/platforms/android-14/arch-arm/
-TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
-
+```
+  NDK=/home/wei/android-ndk-r10e
+  PLATFORM=$NDK/platforms/android-14/arch-arm/
+  TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
+```
 修改每个路径对应你电脑上的路径，确保每个路径都存在。
 
 
 ### 2.开始run shell
-
-sh build_android_arm.sh
-
+```
+  sh build_android_arm.sh
+```
 
 -------------------------
 使用了轻clone，方式，减少clone过程的等待时间。
