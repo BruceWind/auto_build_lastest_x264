@@ -1,4 +1,4 @@
-# auto_build_last_x264
+# auto_build_lastest_x264
 自动 clone x264 最新的 源代码，然后build出android arm平台的 点a文件。
 
 # 使用
